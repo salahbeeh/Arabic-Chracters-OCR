@@ -1,14 +1,18 @@
-# Machine Learning Engineer Nanodegree
-# Capstone Project
-## Project: A-Z Handwritten Character Recognizer
+# Computer Arabization 
+
+# Practical Exam
+
+## Project: Arabic Handwritten Characters Recognizer [OCR]
+
+**This report is submitted as partial fulfillment of the requirements of the Computer Arabizition course’s practical exam**
 
 ## Project Overview
 
-My project's aim is to program the computer to identify hand-written alphabets via matrix
-operations. Each alphabet image contains 28*28 pixels, and we create a matrix using these
-pixels. By multiply the matrix to several sample matrixes, the pixels are converted into a deep neural network. And finally, we employ adam optimizer method so that the computer can predict the highest possibility of the alphabet written.
+Our project's aim is to program the computer to identify hand-written alphabets via matrix
+operations. Each alphabet image contains 32*32 pixels, and we create a matrix using these
+pixels. By multiply the matrix to several sample matrixes, the pixels are converted into a Deep neural network. And finally, we employ adam optimizer method so that the computer can predict the highest possibility of the alphabet written.
 
-Keywords: deep learning, ANN, Feature Extraction, CNN, English, Machine Recognition, natural
+Keywords: deep learning, ANN, Feature Extraction, CNN, Arabic, Machine Recognition, natural
 and physical sciences, image data, image processing
 
 ## Problem Statement
@@ -44,13 +48,11 @@ be extracted and also the performance level is low. So a Convolutional Neural Ne
 based English handwritten character recognition method is used. It's a deep machine learning
 method for which it doesn't want to extract the features and also a fast method for character recognition.
 
-My personal **motivation** is that i Have faced a problem, where i wanted to transform a paper
-document into a digital one, but i had to type it character by character. i have been trying to find an
+My personal **motivation** is that I Have faced a problem, where I wanted to transform a paper
+document into a digital one, but I had to type it character by character. I have been trying to find an
 easy way to solve the problem,simply The purpose of our project is to recognize hand-written
 alphabets, so the computer can automatically identify the characters without any manual input.
-The link to my datasource is:
-
-(https://www.kaggle.com/sachinpatel21/az-handwritten-alphabets-in-csv-format) 
+The link to my datasource is:[here](https://www.kaggle.com/mloey1/ahcd1/kernels) 
 
 ### Requirement
 ### Install
@@ -72,32 +74,32 @@ If you do not have Python installed yet, it is highly recommended that you insta
 
 ### Code
 
-code is provided in the `A-Z Handwritten Character recognizer.ipynb` notebook file. the `A_Z Handwritten Data.csv` dataset file to review the project.
+code is provided in the `Arabic Handwritten Character recognizer.ipynb` notebook file. 
 
 ### Run
 
-In a terminal or command window, navigate to the top-level project directory `A-Z Handwritten Character recognizer/` (that contains this README) and run one of the following commands:
+In a terminal or command window, navigate to the top-level project directory `Arabic-Chracters-OCR/` (that contains this README) and run one of the following commands:
 
 ```bash
-ipython notebook A-Z Handwritten Character recognizer.ipynb
+ipython notebook Arabic Handwritten Character recognizer.ipynb
 ```  
 or
 ```bash
-jupyter notebook A-Z Handwritten Character recognizer.ipynb
+jupyter notebook Arabic Handwritten Character recognizer.ipynb
 ```
 
 This will open the Jupyter Notebook software and project file in your browser.
 
 ### Data
 
-The A_Z Handwritten dataset contains 26 folders (A-Z) containing handwritten images in size 28*28 pixels, each alphabet in the image is centre fitted to 20*20 pixel box.Each image is stored as Gray-level.
+The A_Z Handwritten dataset contains containing handwritten images in size 32*32 pixels, each alphabet in the image is centre fitted to 20*20 pixel box.Each image is stored as Gray-level.
 The images manily are taken from NIST(https://www.nist.gov/srd/nist-special-database-19)
 
-**you can find the dataset here** (https://www.kaggle.com/sachinpatel21/az-handwritten-alphabets-in-csv-format) 
+**you can find the dataset here** (https://www.kaggle.com/mloey1/ahcd1/kernels) 
 
 ## Solution Statement
 A Convolutional Neural Network (CNN) is a special type of feed-forward multilayer trained in
-supervised mode. The CNN trained and tested our database that contains 372451 of
+supervised mode. The CNN trained and tested our database that contains 16798 of
 handwritten english characters. 
 
 ## Evaluation Metrics
