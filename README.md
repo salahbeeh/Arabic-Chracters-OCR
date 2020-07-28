@@ -1,9 +1,6 @@
 # Computer Arabization 
-
 # Practical Exam
-
 ## Project: Arabic Handwritten Characters Recognizer [OCR]
-
 **This report is submitted as partial fulfillment of the requirements of the Computer Arabizition course’s practical exam**
 
 ## Project Overview
